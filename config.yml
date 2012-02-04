@@ -1,0 +1,12 @@
+defaultpriority: 2
+# Try to use:
+#       defaultpriority: high|above|normal|below|idle
+# Alias list:
+#       high:2
+#       above:1
+#       normal:0
+#       below:-1
+#       idle:2
+#Example:
+#       defaultpriority: high
+#...

@@ -1,0 +1,22 @@
+#WinClassPriority by PedroHLC
+#com.pedrohlc.winclasspriority
+
+name: WinClassPriority
+author: PedroHLC
+main: com.pedrohlc.winclasspriority.WinClassPriority
+version: 1.0
+
+commands:
+    setprt:
+        description: This is a demo command.
+        permission: winclasspriority.setprt
+        usage: /<command> [priority]
+
+permissions:
+    winclasspriority.*:
+        description: Gives access to all winclasspriority commands
+        children:
+            winclasspriority.setprt: true
+    winclasspriority.setprt:
+        description: Allows you to change the server process priority
+        default: op
